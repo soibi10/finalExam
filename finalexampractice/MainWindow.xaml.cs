@@ -151,7 +151,7 @@ namespace finalexampractice
                     string Payrate = dr.GetString(4);
                 }
 
-                MessageBox.Show("The record has been deleted successfully", "Deleted!");
+                MessageBox.Show("The record has been deleted successfuly", "Deleted!");
                 sqliteCon.Close();
             }
             catch (Exception ex)
